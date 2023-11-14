@@ -5,7 +5,9 @@
     --primary-color: rgb(255, 255, 255);
     --secondary-color: black;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -165,4 +167,12 @@ body {
 }
 .container2 {
     margin: none;
+}
+table, td, tr{
+    border: 2px solid rgb(0, 0, 0);
+    background: aqua;
+    margin: 20px;
+    padding: 5px;
+    max-width: 500px;
+    
 }
