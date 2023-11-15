@@ -168,11 +168,3 @@ body {
 .container2 {
     margin: none;
 }
-table, td, tr{
-    border: 2px solid rgb(0, 0, 0);
-    background: aqua;
-    margin: 20px;
-    padding: 5px;
-    max-width: 500px;
-    
-}
