@@ -28,14 +28,15 @@ body {
 .text-primary {
     color: var(--primary-color)
 }
-
 #navbar {
+    position: fixed;
     background-color: rgb(50, 255, 255);
     color: rgb(155, 155, 155);
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
     justify-content: space-between;
+    width: 99%;
 }
 #navbar a{
     color: rgb(0, 0, 0);
@@ -58,6 +59,7 @@ body {
 #showcase {
     background: #333 url('../img/360_F_321931558_TDXtnD45DNIWWfhnFL2ceLb09uBAf9Zy.jpg')no-repeat center center/cover;
     height: 100vh;
+    padding-top: 10px;
 }
 #showcase .showcase-content {
     display: flex;
@@ -164,7 +166,13 @@ body {
     background: url('../img/jonas-smith-aL6tG-j-E4Y-unsplash.jpg') no-repeat center center/cover;
     height: 60vh;
     justify-content: center;
+    
 }
 .container2 {
     margin: none;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
 }
