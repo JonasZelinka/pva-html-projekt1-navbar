@@ -107,6 +107,7 @@ body {
 .m-heading {
     font-size: 2rem;
     margin-bottom: 1rem;
+    padding-top: 10px;
 }
 .p-1{
     padding: 1.5rem;
@@ -174,6 +175,7 @@ body {
 }
 .container2 {
     margin: none;
+    padding: 15px;
 }
 .topnav {
     overflow: hidden;
