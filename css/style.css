@@ -58,6 +58,7 @@ body {
 #navbar ul li :hover{
     background-color: var(--primary-color);
     border-radius: 5px;
+    color: black;
 }
 #showcase {
     background: #333 url('../img/krzysztof-hepner-C1JTOq_uTpY-unsplash.jpg')no-repeat center center/cover;
