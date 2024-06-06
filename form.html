@@ -3,96 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Registrařní formulář</title>
     <style>
-    .btn {
-        margin-top: 5px;
-    }
-    .my-1 {
-        margin: 8px 0;
-    }
-    div {
-        margin: 8px 0;
-    }
-    .auta {
-        margin: 8px;
-    }
-    table, td, tr{
-    border: 2px solid rgb(0, 0, 0);
-    background: aqua;
-    margin: 20px;
-    padding: 5px;
-    max-width: 500px;   
-    }
-    
+
     </style>
-    <table>
-        <thead>
-            <tr>
-                <th>Web</th>
-                <th>Zakladatelé</th>
-                <th>Vznik</th>
-                <th>Recenze</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Shopify</td>
-                <td>Tobias Lutke, Scott Lake</td>
-                <td>2006</td>
-                <td>4/5</td>
-    
-            </tr>
-            <tr>
-                <td>Modalyst</td>
-                <td>Jill Sherman, Alain Miguel</td>
-                <td>2012</td>
-                <td>3,6/5</td>
-            </tr>
-            <tr>
-                <td>Megagoods</td>
-                <td>Mgeagoods Inc.</td>
-                <td>2004</td>
-                <td>3/5</td>
-            </tr>
-            <tr>
-                <td>Spocket</td>
-                <td>Saba Mohebpour</td>
-                <td>2012</td>
-                <td>3,5/5</td>
-            </tr>
-    
-    
-        </tbody>
-    </table>
-</head>
-<body>
-    <h1>Registrařní formulář</h1>
-    <form>
-        <div><label for="krestni">Křestní jméno</label></div>
-        <div><input type="text" name="krestni" id="krestni" placeholder="vaše křestní jméno"></div>
-        <div><label for="prijmeni">Příjmení</label></div>
-        <div><input type="text" name="prijmeni" id="prijmeni" placeholder="vaše příjmení"></div>
-        <div class="btn">
-            <label for="muz">Muž</label>
-            <input type="radio" name="pohlavi" id="muz"><br>
-            <label for="zena">Žena</label>
-            <input type="radio" name="pohlavi" id="zena"><br>
-            <label for="obojzivelnik">Obojživelník</label>
-            <input type="radio" name="pohlavi" id="oboj">
-        </div>
-
-        
-        </div>
-        <label for="cars">Máte zkušenosti</label>
-        <select name="cars" id="cars">
-            <div class="auta">
-                <option value="Ano">Ano</option>
-                <option value="Ne">Ne</option>
+    <body>
+        <div>
+        <nav id="navbar">
+            <div id="logo">
+                <a href="navbar.html">Drop<span class="text-primary">shipping</span></a>
             </div>
-        </select>
-        <div class="btn"><input type="submit" value="odeslat"></div>
-    </form>
-
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house-chimney"></i></a></li>
+                <li><a href="https://www.shopify.com/blog/how-to-start-dropshipping?term=&adid=649248676751&campaignid=19724533104&utm_medium=cpc&utm_source=google&gclid=CjwKCAiA0syqBhBxEiwAeNx9N-SeJoAy3U5JIkdzBdh_HoaX7KIbLsIHFOPdHvMqAdj_YFnlVfXrHBoCI3cQAvD_BwE&cmadid=516586848;cmadvertiserid=10730501;cmcampaignid=26990768;cmplacementid=324286430;cmcreativeid=163722649;cmsiteid=5500011" target="_blank">Základy <i class="fa-brands fa-shopify"></i></a></li>
+                <li><a href="https://bestfulfill.com/who-are-the-richest-dropshippers/" target="_blank">Osobnosti <i class="fa-solid fa-person"></i></a></li>
+                <li><a href="form.html">Formulář <i class="fa-solid fa-circle-check"></i></a></li>
+                <li><a href="#zdroje">Zdroje <i class="fa-solid fa-gears"></i></a></li>
+            </ul>
+        </nav>
+        </div>
+    <div>
+        <section id="tabulka" class="py-1">
+            <div class="container">
+                <h2 class="m-heading text-center">Django hosting</h2>
+    
+                <table class="my-table">
+                    <tr>
+                        <th>Název</th>
+                        <th>Url</th>
+                        <th>Popis</th>
+                        <th>Cena</th>
+                    </tr>
+                    <tr>
+                        <td>Render</td>
+                        <td>https://render.com/</td>
+                        <td>fungující hosting</td>
+                        <td>od $0 USD</td>
+                    </tr>
+                    <tr>
+                        <td>Python anywhere EU</td>
+                        <td>https://eu.pythonanywhere.com/</td>
+                        <td>fungující hosting</td>
+                        <td>od €0 EUR</td>
+                    </tr>
+                    <tr>
+                        <td>AWS</td>
+                        <td>https://aws.amazon.com/free/</td>
+                        <td>zatím nemám zkušenost</td>
+                        <td>12 měsíců free produkty</td>
+                    </tr>
+                    <tr>
+                        <td>Azure</td>
+                        <td>https://azure.microsoft.com/en-us/free/apps</td>
+                        <td>zatím nemám zkušenost</td>
+                        <td>12 měsíců free produkty + $200 credit </td>
+                    </tr>
+                </table>
+    
+            </div>
+        </section>
+    
+    
+    
+    
+        <section id="formular" class="py-1">
+    
+            <div class="container">
+                <h2 class="m-heading text-center">Formulář</h2>
+    
+    
+    
+                <form>
+                    <fieldset>
+                      <legend>Hosting </legend>
+                       <label for="nazev">Název</label><br>
+                       <input type="text" id="nazev" name="nazev"><br>
+                       <label for="url">Url</label><br>
+                       <input type="url" id="url" name="url"><br>
+                       <label for="popis">Popis hostingu:</label><br>
+                       <textarea id="popis" name="textarea" rows="3">
+                       </textarea><br>
+                       <label for="cena">Cena</label><br>
+                       <input type="text" id="cena" name="cena"><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend> Doplnění </legend>
+                        <h2>Vyzkoušeno</h2><br>
+                         <input type="radio" id="yes" name="zkouska" value="yes">
+                         <label for="no">Ano</label><br>
+                         <input type="radio" id="no" name="zkouska" value="no">
+                         <label for="no">Ne</label><br><br>
+                         <input type="checkbox" id="dokumentace" name="dokumentace" value="Dokumentace">
+                         <label for="dokumentace"> Dobrá dokumentace</label><br>
+                         <input type="checkbox" id="vykon" name="vykon" value="vykon">
+                         <label for="vykon"> Dostatečný výkon</label><br>
+                         <input type="checkbox" id="platba" name="platba" value="platba">
+                         <label for="platba"> V budoucnu asi zaplatím</label><br><br>
+                      </fieldset>
+                      <input type="submit" value="Odeslat">
+                    </form>
+    
+            </div>
+        </section>
+    
 </body>
 </html>
